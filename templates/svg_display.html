@@ -1,0 +1,117 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='js/tooltipster/dist/css/tooltipster.bundle.css') }}"/>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/jquery.steps.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.steps.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.steps.min.js') }}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='js/tooltipster/dist/js/tooltipster.bundle.js') }}"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tooltip').tooltipster({
+                contentCloning: true,
+                trigger: 'click',
+                interactive: true
+            })
+        })
+
+    </script>
+</head>
+<body class="svg-body">
+<nav>
+    <div class="nav-wrapper">
+        <a href="{{ url_for('home.show') }}"><img
+                src="{{ url_for('static', filename='assets/logo-qualitics-white.png') }}"
+                alt="Logo" class="nav-logo"/></a>
+        <ul class="right">
+            <li><a class="link-nav" href="{{ url_for('home.logout') }}"><i class="material-icons">exit_to_app</i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h4 class="home-title">Inspect the Tower</h4>
+<div id="msg_block">
+    {% if messages %}
+    {% for index, message, category in messages %}
+    <div id="{{ index }}"
+         class="{% if category == 'info' %} information-panel {% else %} error-panel {% endif %}">
+        <h3 class="msg home-title no-margin">
+            {% if category == 'info' %} Information {% else %} Critical {% endif %}
+        </h3>
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
+<div id="display-tower">
+    {% for (face, svg) in data.items() %}
+    <h3>{{ face }}</h3>
+    <section>
+        <div class="pylone">
+            {{ svg | safe }}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+<div class="tooltip_template">
+    {% for image in images %}
+    <span id="{{ image[0] }}">
+                    <a href="{{ url_for('form.display', img_id=image[0]) }}">
+                        <img src="" class="svg-tower-picture"/>
+                    </a>
+                </span>
+    {% endfor %}
+</div>
+
+<img src="{{ url_for('static', filename='assets/background-home.png') }}" alt="Background-city"
+     class="home-background"/>
+
+</body>
+<script>
+    $("#display-tower").steps({
+        headerTag: "h3",
+        bodyTag: "section",
+        autoFocus: true,
+        onFinished: function (event, currentIndex) {
+            $.confirm({
+                title: 'Confirm!',
+                content: 'Are you sure you want to save this report ?',
+                typeAnimated: true,
+                theme: 'material',
+                buttons: {
+                    confirm: function () {
+                        $.ajax({
+                            url: "{{ url_for('report.save') }}",
+                            type: 'POST',
+                            success: function (response) {
+                                location.href = "index";
+                            },
+                            error: function (error) {
+                                console.log(error);
+                            }
+                        });
+                    },
+                    cancel: function () {
+                        //Do nothing
+                    }
+                }
+            });
+        }
+    });
+
+
+</script>
+</html>

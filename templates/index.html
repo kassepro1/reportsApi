@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/footable.standalone.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/footable.standalone.min.css') }}">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+            type="text/javascript"></script>
+    <script src="{{ url_for('static', filename='js/footable.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/footable.min.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    {{ form.csrf_token }}
+</head>
+<body class="home-body">
+<nav>
+    <div class="nav-wrapper">
+        <a href="{{ url_for('home.show') }}"><img
+                src="{{ url_for('static', filename='assets/logo-qualitics-white.png') }}"
+                alt="Logo" class="nav-logo"/></a>
+        <ul class="right">
+            <li><a class="link-nav" href="{{ url_for('home.logout') }}"><i class="material-icons">exit_to_app</i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h4 class="home-title">Select your mission</h4>
+<table id="missions-table" class="table" data-paging="true" data-filtering="true" data-sorting="true" data-state="true">
+    <thead>
+    <tr>
+        <th data-breakpoints="xs sm">ID</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th data-breakpoints="xs">Status</th>
+        <th data-breakpoints="xs sm">Date</th>
+        <th data-breakpoints="xs">Length</th>
+        <th data-breakpoints="xs">RGB PICTURES</th>
+        <th data-breakpoints="xs">INFRA PICTURES</th>
+        <th data-breakpoints="xs">INFRA VIDEOS</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for mission in form.missions %}
+    <tr>
+        <td>{{ mission.id }}</td>
+        <td>{{ mission.name }}</td>
+        <td>{{ mission.type }}</td>
+        <td>{{ mission.status }}</td>
+        <td>{{ mission.start_date }}</td>
+        <td>{{ mission.length }}</td>
+        <td>{{ mission.cam_count }}</td>
+        <td>{{ mission.ir_count }}</td>
+        <td>{{ mission.irrec_count }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<img src="{{ url_for('static', filename='assets/background-home.png') }}" alt="Background-city"
+     class="home-background"/>
+<div id="msg_block">
+    {% if messages %}
+    {% for index, message, category in messages %}
+    <div id="{{ index }}"
+         class="{% if category == 'info' %} information-panel {% else %} error-panel {% endif %}">
+        <h3 class="msg home-title no-margin">
+            {% if category == 'info' %} Information {% else %} Critical {% endif %}
+        </h3>
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
+</body>
+<script>
+
+$(document).ready(function () {
+    jQuery(function ($) {
+        $('.table').footable();
+    });
+    $("table tr").dblclick(function () {
+        let id_mission = $(this).find("td:first").text();
+
+        location.href = "report/"+id_mission;
+    });
+});
+
+
+
+
+</script>
+</html>

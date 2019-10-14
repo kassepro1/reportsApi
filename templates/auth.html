@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Qualitics Reports</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body class="auth-body">
+<div class="auth-container">
+    <form class="auth-form" method="post" action="{{ url_for('home.login') }}">
+        <img src="../static/assets/logo-qualitics-black.png" alt="Logo" class="logo"/>
+
+        <div class="input-field">
+            <label class='auth-field' for="username">Username</label>
+            <input type="text" name="username" id="username" class='auth-field' autocomplete="on">
+        </div>
+
+        <div class="input-field">
+            <label class='auth-field' for="pass">Password</label>
+            <input type="password" name="password" id="pass" class='auth-field' autocomplete="on">
+        </div>
+
+        <div class="button auth-button">
+            <button type="submit">LOGIN<i class="fa fa-check"></i></button>
+        </div>
+        {% if login_error %}
+            <div class="error-panel">
+                {{ error_msg }}
+            </div>
+        {% endif %}
+
+    </form>
+</div>
+</body>
+</html>

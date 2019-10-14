@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="620" version="1.2" baseProfile="tiny" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none" class="" style=""/>
+  <title>Qt SVG Document</title>
+  <desc>Generated with Qt</desc>
+  <defs>
+  </defs>
+
+  
+
+    <!-- Face 1 pylone
+      X        = 347
+      Y top    = 234
+      Y Bottom = 787
+      dy       = 787 - 234 = 553
+    -->
+<g class="currentLayer" style=""><title>Layer 1</title><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="svg_1" class="">
+
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_2">
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="125,586.5 55,586.5 " id="svg_3"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_4">
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,79.5 100,99.5 " id="svg_5"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,79.5 81,99.5 " id="svg_6"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,99.5 100,120.5 " id="svg_7"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,99.5 81,120.5 " id="svg_8"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,120.5 100,140.5 " id="svg_9"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,120.5 81,140.5 " id="svg_10"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,140.5 100,161.5 " id="svg_11"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,140.5 81,161.5 " id="svg_12"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,161.5 100,181.5 " id="svg_13"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,161.5 81,181.5 " id="svg_14"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,79.5 81,79.5 " id="svg_15"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,79.5 100,99.5 " id="svg_16"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,99.5 90,99.5 " id="svg_17"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,99.5 90,99.5 " id="svg_18"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,99.5 81,120.5 " id="svg_19"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,120.5 81,120.5 " id="svg_20"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,120.5 100,140.5 " id="svg_21"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,140.5 90,140.5 " id="svg_22"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,140.5 90,140.5 " id="svg_23"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,140.5 81,161.5 " id="svg_24"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,161.5 81,161.5 " id="svg_25"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,161.5 100,181.5 " id="svg_26"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,181.5 90,181.5 " id="svg_27"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,181.5 90,181.5 " id="svg_28"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_29">
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_30">
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_31">
+  <circle cx="100" cy="140.5" r="0.5" id="svg_32"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_33">
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_34">
+  <circle cx="81" cy="140.5" r="0.5" id="svg_35"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_36">
+  </g>
+
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_37">
+  </g>
+
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_38">
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,181.5 76,308.5 " id="svg_39"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="76,308.5 70,502.5 " id="svg_40"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="70,502.5 67,586.5 " id="svg_41"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,181.5 104,308.5 " id="svg_42"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="104,308.5 111,502.5 " id="svg_43"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="111,502.5 114,586.5 " id="svg_44"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="77,586.5 114,571.5 " id="svg_45"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="114,571.5 68,552.5 " id="svg_46"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="68,552.5 112,532.5 " id="svg_47"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="112,532.5 69,513.5 " id="svg_48"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="69,513.5 111,493.5 " id="svg_49"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="111,493.5 71,474.5 " id="svg_50"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="71,474.5 110,454.5 " id="svg_51"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="110,454.5 72,435.5 " id="svg_52"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="72,435.5 108,415.5 " id="svg_53"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108,415.5 73,396.5 " id="svg_54"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="73,396.5 107,376.5 " id="svg_55"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="107,376.5 75,357.5 " id="svg_56"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="75,357.5 105,337.5 " id="svg_57"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="105,337.5 76,318.5 " id="svg_58"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="76,318.5 104,298.5 " id="svg_59"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="104,298.5 77,279.5 " id="svg_60"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="77,279.5 103,259.5 " id="svg_61"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="103,259.5 79,240.5 " id="svg_62"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="79,240.5 101,220.5 " id="svg_63"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="101,220.5 80,201.5 " id="svg_64"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="80,201.5 100,181.5 " id="svg_65"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="110,474.5 71,474.5 " id="svg_66"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="76,250.5 81,250.5 " id="svg_67"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="69,424.5 75,424.5 " id="svg_68"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="106,424.5 111,424.5 " id="svg_69"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,58.5 90,58.5 " id="svg_70"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,58.5 90,58.5 " id="svg_71"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,58.5 81,79.5 " id="svg_72"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,58.5 90,33.5 " id="svg_73"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="90,33.5 100,58.5 " id="svg_74"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,58.5 100,79.5 " id="svg_75"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81,58.5 81,79.5 " id="svg_76"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="100,250.5 105,250.5 " id="svg_77"/>
+  </g>
+
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_78">
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_79">
+  </g>
+
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_80">
+  </g>
+
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_81">
+  </g>
+
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_82">
+  </g>
+
+
+
+
+  </g></g></svg>

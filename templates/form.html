@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotation image</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body class="form-body">
+<nav>
+    <div class="nav-wrapper">
+        <a href="{{ url_for('home.show')}}"><img src="../static/assets/logo-qualitics-white.png" alt="Logo"
+                                                 class="nav-logo"/></a>
+        <ul class="right">
+            <li><a class="link-nav" href="{{ url_for('home.logout')}}"><i class="material-icons">exit_to_app</i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="msg_block">
+    {% if messages %}
+    {% for index, message, category in messages %}
+    <div id="{{ index }}"
+         class="{% if category == 'info' %} information-panel {% else %} error-panel {% endif %}">
+        <h3 class="msg home-title no-margin">
+            {% if category == 'info' %} Information {% else %} Critical {% endif %}
+        </h3>
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
+<div class="auth-container">
+    <form method="post" class="annot-form" action="{{ url_for('form.save') }}">
+        <div class="input-field">
+            <label class="auth-field" for="annotation">Annotation/code</label>
+            <input type="text" name="annotation" id="annotation"
+                   value="{% if img_form is defined %}{{ img_form['annotation'] }}{% endif %}">
+        </div>
+        <div class="button auth-button">
+            <button type="submit">Sauvegarder</button>
+        </div>
+    </form>
+</div>
+<img src="../static/assets/background-home.png" alt="Background-city" class="home-background"/>
+</body>
+</html>

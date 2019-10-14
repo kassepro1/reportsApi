@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="620" version="1.2" baseProfile="tiny" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none" class="" style=""/>
+  <title>Qt SVG Document</title>
+  <desc>Generated with Qt</desc>
+  <defs>
+  </defs>
+  
+
+    <!-- Face 1 pylone
+      X        = 347
+      Y top    = 234
+      Y Bottom = 787
+      dy       = 787 - 234 = 553
+    -->
+    <!-- P1 -->
+
+<g class="currentLayer" style=""><title>Layer 1</title><g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="svg_1" class="">
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_2">
+  <path vector-effect="none" fill-rule="evenodd" d="M90.54054939746857,546.3956148028374 L90.54054939746857,556.1255415081978 L105.67599093914032,556.1255415081978 L105.67599093914032,546.3956148028374 L90.54054939746857,546.3956148028374 " id="svg_3"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_4">
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="90.5405502319336,536.6656494140625 90.5405502319336,564.7743530273438 " id="svg_5"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="105.67598724365234,543.1522827148438 105.67598724365234,558.2877197265625 " id="svg_6"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="105.67598724365234,546.3956298828125 90.5405502319336,546.3956298828125 " id="svg_7"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="90.5405502319336,546.3956298828125 90.5405502319336,556.1255493164062 " id="svg_8"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="90.5405502319336,556.1255493164062 105.67598724365234,556.1255493164062 " id="svg_9"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="105.67598724365234,556.1255493164062 105.67598724365234,546.3956298828125 " id="svg_10"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,60.98038101196289 33.24209213256836,82.6024398803711 " id="svg_11"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,82.6024398803711 33.24209213256836,82.6024398803711 " id="svg_12"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,149.63082885742188 15.944442749023438,171.2528839111328 " id="svg_13"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,171.2528839111328 15.944442749023438,171.2528839111328 " id="svg_14"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,60.98038101196289 108.91930389404297,82.6024398803711 " id="svg_15"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,60.98038101196289 88.37834930419922,82.6024398803711 " id="svg_16"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,82.6024398803711 108.91930389404297,105.30560302734375 " id="svg_17"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,82.6024398803711 88.37834930419922,105.30560302734375 " id="svg_18"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,105.30560302734375 108.91930389404297,126.92765808105469 " id="svg_19"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,105.30560302734375 88.37834930419922,126.92765808105469 " id="svg_20"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,126.92765808105469 108.91930389404297,149.63082885742188 " id="svg_21"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,126.92765808105469 88.37834930419922,149.63082885742188 " id="svg_22"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,149.63082885742188 108.91930389404297,171.2528839111328 " id="svg_23"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,149.63082885742188 88.37834930419922,171.2528839111328 " id="svg_24"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,60.98038101196289 88.37834930419922,60.98038101196289 " id="svg_25"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,60.98038101196289 108.91930389404297,82.6024398803711 " id="svg_26"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,82.6024398803711 99.18936920166016,82.6024398803711 " id="svg_27"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,82.6024398803711 99.18936920166016,82.6024398803711 " id="svg_28"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,82.6024398803711 88.37834930419922,105.30560302734375 " id="svg_29"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,105.30560302734375 88.37834930419922,105.30560302734375 " id="svg_30"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,105.30560302734375 108.91930389404297,126.92765808105469 " id="svg_31"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,126.92765808105469 99.18936920166016,126.92765808105469 " id="svg_32"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,126.92765808105469 99.18936920166016,126.92765808105469 " id="svg_33"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,126.92765808105469 88.37834930419922,149.63082885742188 " id="svg_34"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,149.63082885742188 88.37834930419922,149.63082885742188 " id="svg_35"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,149.63082885742188 108.91930389404297,171.2528839111328 " id="svg_36"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,171.2528839111328 99.18936920166016,171.2528839111328 " id="svg_37"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,171.2528839111328 99.18936920166016,171.2528839111328 " id="svg_38"/>
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_39">
+  <circle cx="108.91929984092712" cy="82.60244184732437" r="0.540551483631134" id="svg_40"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_41">
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_42">
+  <circle cx="88.37834346294403" cy="82.60244184732437" r="0.540551483631134" id="svg_43"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_44">
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_45">
+  <circle cx="108.91929984092712" cy="126.92766350507736" r="0.540551483631134" id="svg_46"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_47">
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_48">
+  <circle cx="88.37834346294403" cy="126.92766350507736" r="0.540551483631134" id="svg_49"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_50">
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_51">
+  <circle cx="108.91929984092712" cy="171.25288516283035" r="0.540551483631134" id="svg_52"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_53">
+  </g>
+
+  <g fill="#000000" fill-opacity="1" stroke="none" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_54">
+  <circle cx="88.37834346294403" cy="171.25288516283035" r="0.540551483631134" id="svg_55"/>
+  </g>
+
+  <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" id="svg_56">
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,105.30560302734375 164.05555725097656,126.92765808105469 " id="svg_57"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,126.92765808105469 164.05555725097656,126.92765808105469 " id="svg_58"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,171.2528839111328 84.05393981933594,308.552978515625 " id="svg_59"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="84.05393981933594,308.552978515625 76.48621368408203,518.2869262695312 " id="svg_60"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="76.48621368408203,518.2869262695312 73.2428970336914,609.0995483398438 " id="svg_61"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,171.2528839111328 114.32481384277344,308.552978515625 " id="svg_62"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="114.32481384277344,308.552978515625 121.89253234863281,518.2869262695312 " id="svg_63"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="121.89253234863281,518.2869262695312 124.05473327636719,609.0995483398438 " id="svg_64"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="84.05393981933594,609.0995483398438 124.05473327636719,592.883056640625 " id="svg_65"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="124.05473327636719,592.883056640625 74.32401275634766,572.3421020507812 " id="svg_66"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="74.32401275634766,572.3421020507812 122.9736328125,550.7200317382812 " id="svg_67"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="122.9736328125,550.7200317382812 75.40511322021484,530.1790771484375 " id="svg_68"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="75.40511322021484,530.1790771484375 120.81144714355469,508.5570373535156 " id="svg_69"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="120.81144714355469,508.5570373535156 77.56731414794922,488.0160827636719 " id="svg_70"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="77.56731414794922,488.0160827636719 119.7303466796875,466.3940124511719 " id="svg_71"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="119.7303466796875,466.3940124511719 78.64842224121094,445.8530578613281 " id="svg_72"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="78.64842224121094,445.8530578613281 117.56813049316406,424.2309875488281 " id="svg_73"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="117.56813049316406,424.2309875488281 80.81062316894531,403.6900329589844 " id="svg_74"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="80.81062316894531,403.6900329589844 116.48703002929688,382.0679931640625 " id="svg_75"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="116.48703002929688,382.0679931640625 81.8917236328125,361.52703857421875 " id="svg_76"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="81.8917236328125,361.52703857421875 115.40592956542969,339.90496826171875 " id="svg_77"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="115.40592956542969,339.90496826171875 82.97282409667969,319.364013671875 " id="svg_78"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="82.97282409667969,319.364013671875 113.24372863769531,297.741943359375 " id="svg_79"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="113.24372863769531,297.741943359375 85.1350326538086,277.20098876953125 " id="svg_80"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="85.1350326538086,277.20098876953125 112.16260528564453,255.57891845703125 " id="svg_81"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="112.16260528564453,255.57891845703125 86.21613311767578,235.0379638671875 " id="svg_82"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="86.21613311767578,235.0379638671875 111.08150482177734,213.41590881347656 " id="svg_83"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="111.08150482177734,213.41590881347656 87.29724884033203,192.8749542236328 " id="svg_84"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="87.29724884033203,192.8749542236328 108.91930389404297,171.2528839111328 " id="svg_85"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="137.02798461914062,609.0995483398438 61.35077667236328,609.0995483398438 " id="svg_86"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="120.81144714355469,488.0160827636719 77.56731414794922,488.0160827636719 " id="svg_87"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="137.02798461914062,126.92765808105469 137.02798461914062,116.11663055419922 " id="svg_88"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="137.02798461914062,126.92765808105469 108.91930389404297,105.30560302734375 " id="svg_89"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="61.35077667236328,82.6024398803711 61.35077667236328,71.7914047241211 " id="svg_90"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="61.35077667236328,82.6024398803711 88.37834930419922,60.98038101196289 " id="svg_91"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="51.620849609375,171.2528839111328 51.620849609375,160.44186401367188 " id="svg_92"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="51.620849609375,171.2528839111328 88.37834930419922,149.63082885742188 " id="svg_93"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="82.97282409667969,245.8489990234375 88.37834930419922,245.8489990234375 " id="svg_94"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="76.48621368408203,433.9609375 81.8917236328125,433.9609375 " id="svg_95"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="115.40592956542969,433.9609375 121.89253234863281,433.9609375 " id="svg_96"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,38.277217864990234 99.18936920166016,38.277217864990234 " id="svg_97"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,38.277217864990234 99.18936920166016,38.277217864990234 " id="svg_98"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,38.277217864990234 88.37834930419922,60.98038101196289 " id="svg_99"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,38.277217864990234 99.18936920166016,11.249646186828613 " id="svg_100"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="99.18936920166016,11.249646186828613 108.91930389404297,38.277217864990234 " id="svg_101"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,38.277217864990234 108.91930389404297,60.98038101196289 " id="svg_102"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="88.37834930419922,38.277217864990234 88.37834930419922,60.98038101196289 " id="svg_103"/>
+  <polyline fill="none" vector-effect="non-scaling-stroke" points="108.91930389404297,245.8489990234375 115.40592956542969,245.8489990234375 " id="svg_104"/>
+  </g>
+
+
+  </g></g></svg>
