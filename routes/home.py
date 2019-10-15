@@ -2,6 +2,7 @@ from flask import current_app, Blueprint, request, render_template, redirect, ur
 from flagshipcore.flagship.libserver import QualiticsFlagship, QMission
 from flagshipcore.flagship.codes import QualiticsFlagshipException
 from models.forms import Form
+import jsonpickle
 
 home_bp = Blueprint('home', __name__)
 
@@ -88,10 +89,12 @@ def show():
                 missions = []
 
                 for m in rest.adm_get_missions():
-                    missions.append(
-                        {'id': m.id, 'name': m.name, 'type': m.type, 'startDate': m.start_date, 'length': m.length,
-                         'cam_count': m.cam_count, 'ir_count': m.ir_count, 'irrec_count': m.irrec_count,
-                         'status': m.status.value})
+
+                    missions.append(jsonpickle.encode(m))
+                    # missions.append(
+                    #     {'id': m.id, 'name': m.name, 'type': m.type, 'startDate': m.start_date, 'length': m.length,
+                    #      'cam_count': m.cam_count, 'ir_count': m.ir_count, 'irrec_count': m.irrec_count,
+                    #      'status': m.status.value})
                     # missions.append(json.dumps({'id':m.id,'name':m.name,'type':m.type,'startDate':m.start_date,'length':m.length,'cam_count':m.cam_count}))
 
                     data = {
